@@ -1,0 +1,160 @@
+body{
+    background:#2C2F33;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrap{
+    width:100%;
+    background:#23272A;
+    max-width:1000px;
+    height: 100%;
+    margin:0 auto;
+}
+
+header{
+    height:calc(80px - 50px);
+    width:calc(100% - 50px);
+    background:#1a1a1a;
+    font-size:30px;
+    color:#fff;
+    display:flex!important;
+    align-items:center;
+    padding:25px;
+}
+
+.titling{
+    padding:25px;
+    width:calc(100% - 50px);
+    margin-bottom: 25px;
+}
+
+.titling .avatar{
+    display: block;
+    margin:0 auto;
+    border-radius:50%;
+    margin-bottom: 15px;
+}
+
+.name{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    font-weight:300;
+    color:#fff;
+    font-size: 1.75em;
+    margin-bottom: 15px;
+}
+
+.l_box{
+    padding:10px;
+    width:200px;
+    background:#1a1a1a;
+    height:40px;
+    margin:0 auto;
+}
+
+.level{
+    width:40px;
+    height:40px;
+    background:gold;
+    float:left;
+    margin-right:15px;
+}
+
+.badges{
+    float:left;
+    display:flex;
+}
+
+.arrow{
+    cursor:pointer;
+}
+
+.badge{
+    width:35px;
+    height:35px;
+    border-radius:50%;
+    background:crimson/*king*/;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+    float:left;
+    margin-right:10px;
+}
+
+.divider{
+    margin:0 auto;
+    text-align:center;
+    background: rgba(0,0,0,0.7);
+    padding: 20px;
+    margin-bottom:50px;
+}
+
+.divider:last-of-type{
+    margin-bottom:0;
+}
+
+.divider .title{
+    font-size:25px;
+    color:#fff;
+    border-bottom:1px solid rgba(255,255,2555,0.5);
+    padding-bottom:5px;
+    padding-right:25px;
+    padding-left:25px;
+}
+
+.divider .title img{
+    margin-right:8px;
+    opacity:.75;
+}
+
+.top{
+    margin:0 auto;
+    margin-top: 30px;
+    height:220px;
+}
+
+.item{
+    width:175px;
+    height:220px;
+    background: rgba(0,0,0,0.5);
+    margin-right:20px;
+    float:left;
+    color:#fff;
+    font-size:18px;
+}
+
+.item:last-child{
+    margin-right:0;
+}
+
+.artist_pic{
+    width:175px;
+    height:175px;
+    background-size:auto 175px;
+    margin-bottom:11.5px;
+}
+
+footer{
+    width:calc(100% - 40px);
+    margin-top:25px;
+    background:#1a1a1a;
+    color:#fff;
+    padding:20px;
+}
+
+@media only screen and (max-width: 1000px) {
+
+.top{
+    overflow: scroll;
+    width: 175px;
+}
+
+.divider .title:last-of-type{
+    font-size: 20px;
+}
+
+.item{
+    margin-bottom: 25px;
+}
+
+}
